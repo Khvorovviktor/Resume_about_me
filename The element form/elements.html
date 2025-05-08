@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Elements</title>
+</head>
+<body>
+   <h1>Заявка на сайт</h1>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="Email" required>
+      <label for="message">Comment:</label>
+       <textarea id="message" name="Comment" rows="4" cols="32"></textarea><br><br>
+       <button type="reset">Reset</button><br><br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="Password" required>
+      <textarea id="message" name="Comment" rows="4" cols="32"></textarea><br><br>
+      <button type="reset">Reset</button><br><br>
+   <fieldset>
+      <legend>Choose your country</legend>
+     
+      <input type="radio" id="USA" name="country" value="US" />
+      <label for="USA">United States</label><br />
+     
+      <input type="radio" id="Russia" name="country" value="Rus" />
+      <label for="Russia">Russia</label><br />
+     
+      <input type="radio" id="Ukraine" name="country" value="UKR" />
+      <label for="Ukraine">Ukraine</label>
+     
+      <input type="radio" id="UK" name="country" value="UK" />
+      <label for="UK">United Kingdom</label><br />
+      <input type="radio" id="KZ" name="country" value="KZ" />
+      <label for="KZ">Kazakhstan</label><br />
+   </fieldset>
+   <button type="reset">Reset</button><br><br>
+   <h1>
+      <i>
+         <b>IF THERE AREN'T YOUR AGE, PICK UP APPROXIMATE!!!!</b>
+      </i>
+   </h1><br>
+   <label for="age">Age</label>
+   <select id="age" name="Age" required>
+         <option value="">Pick up your age</option>
+         <option value="age">20</option>
+         <option value="age">25</option>
+         <option value="age">30</option>
+         <option value="age">35</option>
+         <option value="age">40</option>
+         <option value="age">45</option>
+         <option value="age">50</option>
+         <option value="age">55</option>
+         <option value="age">60</option>
+   </select>
+   <button type="reset">Reset</button><br><br>
+   
+   <form action="/submit" method="post"></form>
+   <button type="submit">Submit</button> <br><br>
+</body>
+</html>
