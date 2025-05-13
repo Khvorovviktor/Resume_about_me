@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+ }
+ h1 {
+    color: black;
+    text-align: middle;
+ }
+ p {
+    color: blue;
+    font-weight: bold;
+    font-size: 21px
+ }
+ #title {
+    background-color: red;
+ }
+ .highlight {
+    color: black;
+    font-weight: bold;
+ }
+ 
