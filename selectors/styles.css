@@ -6,11 +6,13 @@ body {
  h1 {
     color: black;
     text-align: middle;
+    background-color: red
  }
  p {
     color: blue;
     font-weight: bold;
-    font-size: 21px
+    font-size: 21px;
+    background-color: seagreen;
  }
  #title {
     background-color: red;
@@ -18,5 +20,6 @@ body {
  .highlight {
     color: black;
     font-weight: bold;
- }
+    background-color:  green
+}
  
