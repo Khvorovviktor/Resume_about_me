@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: white;
+    margin: 20px;
+ } 
+ /* сделал боди */
+ h1 {
+    color: black;
+    text-align: center;
+ }
+ /* добавляю условия для заголовков */
+ p {
+    color: blue;
+    font-weight: bold;
+    font-size: 21px;
+ }
+  /* добавляю условия для параграфа*/
+ #title {
+    font-size: 34px;
+    color: gray;
+    font-weight: bold;
+ }
+  /* добавляю условия для id */
+ .highlight {
+    color: black;
+    font-weight: bold;
+ }
+  /* добавляю условия для класса */
+ .background {
+   background-color: green;
+ }
+  /* добавляю условия для класса*/
+ div {
+   background-color: lightgray;
+   border: 5px solid red;
+   background-image: url("summer.jpg");
+   padding: 15px;
+   margin: 20px;
+   width: 98px;
+   height: 98px;
+}
+ /* добавляю условия для коробки*/
+.divover {
+   width: 100px;
+   height: 100px;
+   overflow: scroll;
+}
+ /* добавляю условия для коробки */
