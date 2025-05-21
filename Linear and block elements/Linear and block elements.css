@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+ }
+ h1 {
+    color: black;
+    text-align: middle;
+    background-color: red;
+ }
+ p {
+    color: blue;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: seagreen;
+ }
+ #title {
+    background-color: red;
+ }
+ .highlight {
+    color: black;
+    font-weight: bold;
+    background-color:  green
+}
+.box { /* делаю часть с хекс */
+   width: 500px;
+   height: 500px;
+   background-color: #291c1c;
+   color: #fa0000;
+   display: inline;
+
+}
+.image{
+      display: block; /* преобразовываю картинку в блочный элемент*/
+} /* делаю часть с картинкой */
+.pshka{
+    display: inline; /* преобразовываю весь абзац в строчный элемент */
+
+} /* делаю часть с пешкой */
+.heshka{
+      display: block; /* преобразовываю весь заголовок в блочный элемент */
+
+}/* делаю часть с заголовком */
+.div{
+      display: block; /* преобразовываю весь контейнер в блочный элемент */
+      margin: 15px;
+      padding: 15px;
+} /* делаю часть с контейнером */
