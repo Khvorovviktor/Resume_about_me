@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Изменение типа отображения</title>
+ <link rel="stylesheet" href="Units and color models in CSS.css">
+</head>
+<body>
+    <style>
+        .container {
+     width: 20%;
+     height: 50vh;
+     background-color: lightgray;
+     margin: 0 auto;
+   }
+   .text-em {
+     font-size: 2em; 
+   }
+   .text-rem {
+     font-size: 1.5rem;    
+   }
+    </style>
+    <h1>Машина</h1>
+    <p style="color: blueviolet;">
+        Машина — это техническое устройство, выполняющее механические движения для преобразования энергии, материалов и информации.
+    </p> <!--Добавил Inline style-->
+    <h1>
+        <i>
+            <b>Существующие марки машин</b>
+        </i>    
+    </h1>
+    <ul> <!--Создаю маркированный список: марки машин-->
+        <li>BMW</li>
+        <li>Mercedes</li>
+        <li>Lada</li>
+        <li>Audi</li>
+        <li>Honda</li>
+        <li>Hyundai</li>
+   </ul>
+    <h2 id="title"> <!--Добавляю стиль по id-->
+        <i>
+            Известные компании
+        </i>   
+    </h2>
+    <ol> <!--Создаю нумерованный список: известные компании-->
+        <div class="spisoc"> <!--Создаю класс-->
+        <li class="highlight">Nasa</li>
+        <li class="highlight">Apple</li>
+        <li class="highlight">McDonalds</li>
+        <li class="highlight">KFC</li>
+        <li class="highlight">OPPO</li>
+        </div>
+    </ol>
+    <p class="highlight" id="title">Привет читатель!</p>
+    <p id="title">Привет читатель!</p>
+    <p class="highlight">Привет читатель!</p>
+    <div class="container"> <!--Делаю текст с размером-->
+        <p class="text-em">Текст с размером 2em</p>
+        <p class="text-rem">Текст с размером 1.5rem</p>
+ </div>
+    <div class="box"><!--Создаю бокс-->
+        IT — это аббревиатура выражения Information Technology, что переводится как «информационные технологии»
+    </div>
+    <div class="box2"><!--Создаю бокс-->
+        Простыми словами, это область науки и техники, которая занимается разработкой, внедрением,
+         поддержкой цифровых инноваций и различных высокотехнологичных систем.
+    </div>
+    <div class="box3"> <!--Создаю бокс-->
+        Понятие включает всё, что связано с обработкой, хранением и передачей информации с помощью компьютеров:
+         интернет, программы, приложения, создание сайтов, облачных сервисов.
+    </div>
+</body>
+</html>
