@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+ }
+ h1 {
+    color: black;
+    text-align: middle;
+    background-color: red
+ }
+ p {
+    color: blue;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: seagreen;
+ }
+ #title {
+    background-color: red;
+ }
+ .highlight {
+    color: black;
+    font-weight: bold;
+    background-color:  green
+}
+ .button:hover{
+    background-color: #00ec76;
+    color: red;
+ } /* создаю ховер для кнопки */
+ .button:active {
+   background-color: #fc0b17;
+   color: white;
+ }
+ .input:focus {
+    /* background-color: red; */
+    border: 3px solid red !important;
+} /* создаю фокус для инпута */
+.list-item:first-child {
+   font-weight: bold;
+} /* создаю выделение для первого элемента */
+.list-item:last-child {
+   font-weight: bold;
+} /* создаю выделение для последнего элемента */
+.divka:first-child {
+   font-weight: bold;
+} /* создаю выделение для первого элемента в диве*/
+.divka:last-child {
+   font-weight: bold;
+} /* создаю выделение для последнего элемента в диве*/
+ .divka:focus {
+    /* background-color: red; */
+    border: 3px solid red !important;
+}/* создаю фокус для дива */
+.divka:hover{
+    background-color: #00ec76;
+    color: red;
+ }/* создаю ховер для дива */
+ .divka:nth-child(odd) {
+   background-color: #000000;
+} /* создаю выделение для нечетных предметов в диве */
+.ashka:hover{
+    color: red;
+} /* создаю ховер для ссылки */
