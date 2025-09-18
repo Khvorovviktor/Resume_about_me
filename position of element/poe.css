@@ -1,0 +1,62 @@
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    font-family: "DM-Sans", sans-serif;
+    background-color: #FFFFFFB2;
+}
+
+.static-element {
+    position: static;
+    width: fit-content;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.relative-element {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    bottom: 35px;
+    right: 27px;
+    background-color: lightcoral;
+}
+
+.position {
+    position: relative;
+}
+
+.absolute-element {
+    position: absolute;
+    background-color: lightblue;
+    top: 34px;
+    bottom: 35px;
+    left: 45px;
+    right: 75px;
+}
+
+.container {
+    height: 2000px;
+}
+
+.fixed-element {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+h1 {
+    margin-bottom: 145px;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+}

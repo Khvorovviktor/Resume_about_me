@@ -1,0 +1,45 @@
+.color-change {
+   width: 1200px;
+   height: 1200px;
+   animation: colorChange 0.1s infinite;
+   text-align: center;
+   margin: auto;
+}
+
+@keyframes colorChange {
+   0% {
+       background-color: red;
+       transform: rotate(0deg);
+   }
+   25% {
+       background-color: yellow;
+       transform: rotate(90deg);
+   }
+   50% {
+       background-color: blue;
+       transform: rotate(180deg);
+   }
+   75% {
+        background-color: red;
+        transform: rotate(270deg);
+   }
+   100% {
+        background-color: violet;
+        transform: rotate(360deg)
+   }
+}
+.notification {
+   animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {
+       transform: translateY(0);
+   }
+   40% {
+       transform: translateY(-30px);
+   }
+   60% {
+       transform: translateY(-15px);
+   }
+}
