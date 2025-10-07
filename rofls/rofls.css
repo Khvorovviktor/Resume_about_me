@@ -1,0 +1,46 @@
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    background-color: #F4F6F5;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sut {
+    display: flex;
+}
+
+.sut img {
+    margin-left: 25px;
+    margin-right: 127px;
+    margin-bottom: 35px;
+}
+
+.lublu {
+    width: 789px;
+    height: 325px;
+}
+
+.recroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reklama {
+    margin-right: 35px;
+}
+
+.recroll a {
+    text-decoration: none;
+    border: 1px solid blue;
+    color: black;
+}
+
+.na {
+    text-decoration: none;
+}
