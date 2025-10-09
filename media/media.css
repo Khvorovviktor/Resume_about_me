@@ -18,6 +18,10 @@ body {
   background-color: #FFFFFFB2;
 }
 
+hr {
+  display: none;
+}
+
 .card-block {
   display: flex;
   background-color: #F4F6F5;
@@ -197,5 +201,54 @@ span {
     height: 21px;
     line-height: 100%;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 510px) {
+  .card-block {
+    width: 576px;
+    height: 400px;
+  }
+
+  .header-block {
+    width: 576px;
+    height: 123px;
+    display: block;
+    flex-direction: column;
+  }
+
+  hr {
+    display: block;
+    width: 510px;
+  }
+
+  .card-block img {
+    width: 195px;
+    height: 239px;
+    margin-left: 33px;
+    margin-right: 30px;
+    margin-top: 50px;
+  }
+
+  .text {
+    width: 510px;
+    height: 239px;
+    margin-top: 50px;
+  }
+  span {
+    width: 285px;
+    height: 72px;
+    font-size: 36px;
+    line-height: 100%;
+  }
+
+  .img2 {
+    padding: 0px;
+  }
+
+  .title {
+    margin-top: 0px;
+    font-size: 36px;
+    line-height: 100%;
   }
 }
