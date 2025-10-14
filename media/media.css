@@ -103,7 +103,7 @@ span {
   cursor: pointer;
 }
 
-.nav{
+.nav {
   margin-right: 165px;
   display: flex;
   gap: 60px;
@@ -118,7 +118,7 @@ span {
   line-height: 100%;
   letter-spacing: 0%;
   color: #2C2D35;
-  
+
 }
 
 .nav img {
@@ -126,7 +126,7 @@ span {
 }
 
 @media (max-width: 690px) {
-  .card-block { 
+  .card-block {
     width: 768px;
     height: 380px;
   }
@@ -183,7 +183,7 @@ span {
     width: 768px;
     height: 100px;
   }
-  
+
   .img2 {
     width: 143px;
     height: 35px;
@@ -207,13 +207,13 @@ span {
 @media (max-width: 510px) {
   .card-block {
     width: 576px;
-    height: 400px;
+    height: 500px;
   }
 
   .header-block {
     width: 576px;
     height: 123px;
-    display: block;
+    display: flex;
     flex-direction: column;
   }
 
@@ -234,7 +234,10 @@ span {
     width: 510px;
     height: 239px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
   }
+
   span {
     width: 285px;
     height: 72px;
@@ -250,5 +253,27 @@ span {
     margin-top: 0px;
     font-size: 36px;
     line-height: 100%;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    width: 285px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-right: 33px;
+    margin-bottom: 11px;
+  }
+
+  .btn {
+    width: 178px;
+    height: 50px;
+    padding:  14px 41px 14px 41px;
+  }
+
+  .btn-primary {
+    font-size: 18px;
+    height: 50px;
   }
 }

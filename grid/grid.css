@@ -119,6 +119,8 @@ body {
 .card2 img {
     border-radius: 10px;
     border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .description2 {
@@ -163,6 +165,8 @@ body {
 .card3 img {
     border-radius: 10px;
     border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .card3 {
@@ -229,6 +233,8 @@ body {
 .card4 img {
     border-radius: 10px;
     border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .box4 {
@@ -272,6 +278,8 @@ body {
 .card5 img {
     border-radius: 10px;
     border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .btn5 {
@@ -331,6 +339,8 @@ body {
 .card6 img {
     border-radius: 10px;
     border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .btn6 {
@@ -390,6 +400,8 @@ body {
 .card7 img {
     border-radius: 10px;
     border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 
@@ -450,6 +462,8 @@ body {
 .card9 img {
     border-radius: 10px;
     border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 
