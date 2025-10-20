@@ -106,6 +106,7 @@ span {
 .nav {
   margin-right: 165px;
   display: flex;
+  justify-content: space-between;
   gap: 60px;
 }
 
@@ -119,6 +120,10 @@ span {
   letter-spacing: 0%;
   color: #2C2D35;
 
+}
+
+.burgermenu {
+  display: none;
 }
 
 .nav img {
@@ -215,6 +220,8 @@ span {
     height: 123px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   hr {
@@ -270,6 +277,94 @@ span {
     width: 178px;
     height: 50px;
     padding:  14px 41px 14px 41px;
+  }
+
+  .btn-primary {
+    font-size: 18px;
+    height: 50px;
+  }
+
+  .nav {
+    width: 510px;
+    margin-right: 0px;
+  }
+
+  .nav img {
+    margin-left: 64px;
+  }
+}
+
+@media (max-width: 320px) {
+  .burgermenu {
+    display: block;
+    margin-left: 15px !important;
+  }
+  
+  hr {
+    display: none;
+  }
+  
+  .header-block {
+    width: 320px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+  }
+
+  .nav {
+    width: 320px;
+    height: 62px;
+    background-color: #E1EDE6;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .img2 {
+    width: 290px;
+    height: 35px;
+    margin-bottom: 16px;
+    margin-top: 17px;
+  }
+  
+
+  /* .frames {
+    height: 68px;
+    background-color: #ffff;
+  } */
+
+  .nav a {
+    display: none;
+  }
+
+  .carts {
+    margin-right: 15px;
+  }
+
+  .card-block img {
+    display: none;
+  }
+  .title {
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+
+  .card-block {
+    width: 320px;
+  }
+
+.btn {
+    width: 178px;
+    height: 50px;
+    padding:  14px 41px 14px 41px;
+    margin-left: 15px;
   }
 
   .btn-primary {
