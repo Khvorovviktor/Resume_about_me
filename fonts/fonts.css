@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Open_Sans";
+    src: url(.\Open_Sans\static\OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(.\Inter\Inter-VariableFont_opsz,wght.ttf);
+}
+
+
+@font-face {
+    font-family: "DM_Sans";
+    src: url(.\DM_Sans\DMSans-VariableFont_opsz,wght.ttf);
+}
+
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bitcount-uniquifier {
+  font-family: "Bitcount", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.h {
+    display: grid;
+    grid-template-columns: 500px;
+    margin: auto;    
+}
+
+.h1 {
+    font-family: "Bitcount", system-ui,sans-serif;
+}
+
+.h2 {
+    font-family: "Roboto", sans-serif "Bitcount" ;
+}
+
+.h3 {
+    font-family: "Raleway", sans-serif, "Roboto";
+}
+
+.p {
+    display: grid;
+    grid-template-columns: 500px;
+    margin: auto;
+}
+
+.p1 {
+    font-family: "DM_Sans", sans-serif, "Raleway";
+}
+
+.p2 {
+    font-family: "Inter", sans-serif, "Roboto";
+}
+
+.p3 {
+    font-family: "Open_Sans", sans-serif ,"Bitcount";
+}
