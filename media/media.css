@@ -227,6 +227,8 @@ span {
   hr {
     display: block;
     width: 510px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   .card-block img {
@@ -324,8 +326,7 @@ span {
   .img2 {
     width: 290px;
     height: 35px;
-    margin-bottom: 16px;
-    margin-top: 17px;
+    margin: auto;
   }
   
 
@@ -370,5 +371,9 @@ span {
   .btn-primary {
     font-size: 18px;
     height: 50px;
+  }
+
+  .text {
+    margin: 0;
   }
 }
