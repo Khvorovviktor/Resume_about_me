@@ -1,0 +1,119 @@
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    font-family: "DM Sans";
+}
+
+.shadows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+     width: 200px;
+     height: 100px;
+     background-color: lightblue;
+     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.box2 {
+     width: 100px;
+     height: 200px;
+     background-color: crimson;
+     box-shadow: 30px 30px 4px rgba(0,0,0,0.3);
+}
+
+.box3 {
+     width: 400px;
+     height: 200px;
+     background-color: cadetblue;
+     box-shadow: 27px 32px 35px rgba(35, 35, 124, 0.15);
+}
+
+.box4 {
+     width: 100px;
+     height: 400px;
+     background-color:burlywood;
+     box-shadow: 71px 71px 10px rgba(235, 186, 186, 0.8);
+}
+
+.text {
+   text-shadow: 32px 29px 22px rgba(212, 89, 89, 0.8);
+} 
+
+.text2 {
+   text-shadow: 20px 15px 22px rgba(35, 110, 16, 0.8);
+}
+
+.text3 {
+   text-shadow: 21px 22px 22px rgba(201, 25, 122, 0.8);
+}
+
+.text4 {
+   text-shadow: 12px 13px 22px rgba(41, 29, 209, 0.8);
+}
+
+.gradient-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient-box {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.gradient-box2 {
+     width: 100px;
+     height: 100px;
+     background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.gradient-box3 {
+     width: 300px;
+     height: 500px;
+     background: linear-gradient(to left bottom, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.gradient-box4 {
+     width: 210px;
+     height: 500px;
+     background: linear-gradient(to right top, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.radial-gradientes {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 500px;
+}
+
+.element {
+   background: radial-gradient(circle, violet, gray, blue);
+   width: 100px;
+   height: 100px;
+}
+
+.element2 {
+   background: radial-gradient(ellipse, red, yellow, green);
+   width: 50px;
+   height: 50px;
+}
+
+.element3 {
+   background: radial-gradient(circle, orange, purple, indigo);
+   width: 150px;
+   height: 150px;
+}
+
+.element4 {
+   background: radial-gradient(ellipse, red, yellow, green);
+   width: 250px;
+   height: 250px;
+}
