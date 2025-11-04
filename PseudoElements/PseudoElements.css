@@ -1,0 +1,141 @@
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.body {
+   font-family: "DM Sans", sans-serif;
+}
+
+p {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+   font-family: "DM Sans", sans-serif;
+}
+
+.box::before {
+   content: "Так давайте, так давайте петь и танцевать";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+   font-family: "DM Sans", sans-serif;
+} /* Псевдо элемент before позволяет вставлять что-либо до содержимого */
+
+
+.box2::before {
+   content: "Дом мой достроен, но я в нем один";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+   font-family: "DM Sans", sans-serif;
+}
+
+.box3::before {
+   content: "Хочу лабубу, но";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+   font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+   font-family: "DM Sans", sans-serif;
+}
+
+.h::after {
+   content: "Ресторан плати, без повода...";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+   font-family: "DM Sans";
+} /* Псевдо элемент before позволяет вставлять что-либо после содержимого */
+
+.h2::after {
+   content: "Slim shady";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+   font-family: "DM Sans";
+} 
+
+.h3::after {
+   content: "Пришел, увидел, победил";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+   font-family: "DM Sans";
+}
+
+.box5::first-letter {
+   font-size: 2em;
+   font-weight: bold;
+   color: #ff0000;
+   font-family: "DM Sans";
+   /* Псевдо элемент firs-letter позволяет сделать что-либо с первой буквой */
+}
+
+.box4::first-line {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: "DM Sans";
+   /* Псевдо элемент firs-line позволяет сделать что-либо с строкой */
+}
+
+.box5 {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: "DM Sans";
+}
+
+.box5 {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+   font-family: "DM Sans";
+}
+
+.box5::before {
+   content: "Вставлено перед содержимым.";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+   font-family: "DM Sans";
+}
+
+
+.box4 {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+   font-family: "DM Sans";
+}
+
+.box4::before {
+   content: "Вставлено перед содержимым.";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+   font-family: "DM Sans";
+}
+
+
+.box6 {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+   font-family: "DM Sans";
+}
+
+.box6::before {
+   content: "Вставлено перед содержимым.";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+   font-family: "DM Sans";
+}
