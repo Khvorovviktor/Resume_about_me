@@ -10,17 +10,17 @@ body {
     background-color: #FFFFFFB2;
 }
 
-.card1 {
+.container-card {
     width: 380px;
     border: 1px solid #F2F6FA;
     border-radius: 10px;
 }
-.box1 {
+.container-card__box {
     padding: 50px 89px 50px 44px;
 
 }
 
-.title1 {
+.container-card__title {
     color: #2E363E;
     font-weight: 700;
     font-size: 24px;
@@ -28,7 +28,7 @@ body {
     margin-bottom: 12px;
 }
 
-.description1 {
+.container-card__description {
     color: #2E363E;
     font-weight: 400;
     font-size: 16px;
@@ -36,7 +36,7 @@ body {
     margin-bottom: 24px;
 }
 
-.cost1 {
+.container-card__cost {
     color: #434B53;
     font-weight: 500;
     font-size: 24px;
@@ -44,7 +44,7 @@ body {
     margin-bottom: 14px;
 }
 
-.btn1 {
+.container-card__btn {
     background-color: #FED84C;
     font-weight: 500;
     font-size: 18px;
@@ -54,7 +54,14 @@ body {
     padding: 20px 40px;
 }
 
-.card8 {
+.container-card img {
+    border-radius: 10px;
+    border: 1px solid #F2F6FA;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/* .card8 {
     width: 380px;
     border: 1px solid #F2F6FA;
     border-radius: 10px;
@@ -519,7 +526,7 @@ body {
     border-radius: 8px;
     border: none;
     padding: 20px 40px;
-}
+} */
 
 .container {
     display: grid;
