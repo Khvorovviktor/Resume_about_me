@@ -61,14 +61,13 @@ const task5 = "Задание 5"
 console.log(task5)
 
 let numbers = 123;
-let strNum = String(numbers); // Использование функции String()
-console.log(strNum); // Вывод: "123"
-
-const forDaniel = "Извините, в видеоуроке не было сказано про динамическую типизацию, только про преобазование :(";
-console.log(forDaniel);
+console.log(typeof numbers)
+numbers = String(numbers); // Использование функции String()
+console.log(typeof numbers); // Вывод: "123"
 
 let task6 = "Задание 6";
 console.log(task6);
 
-var sign = prompt("Введите ваше имя и возраст");
-console.log(`Привет, ${sign}!`); /*Потом на созвоне объясните эти два этих непонятных моментов prompt и динамическую типизацию пожалуйста 0_0*/
+var namess = prompt("Введите ваше имя");
+var age2 = parseInt(prompt("Введите свой возраст"));
+console.log(`Привет, ${namess} ${age2} лет!`);
