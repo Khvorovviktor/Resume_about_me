@@ -1,6 +1,6 @@
 let task1 = "Первое задание";
 console.log(task1);
-let num = prompt("Введите любое число");
+let num = parseInt(prompt("Введите любое число"));
 if (num > 10) {
     console.log("Число больше 10")
 } else {
@@ -20,26 +20,28 @@ if (fileConfirm) {
 let task3 = "Третье задание";
 console.log(task3);
 
-let age = prompt("Каков ваш возраст?");
+let age = parseInt(prompt("Каков ваш возраст?"));
 
-if (age < 18) {
+if (age >=13 && age <= 18) {
     console.log("Вы ещё подросток.");
-} else if (age >= 18, age <= 30) {
+} else if (age >= 18 && age <= 30) {
     console.log("Вы молодой взрослый.");
 } else if (age > 30) {
     console.log("Вы взрослый.");
+} else if (age < 13) {
+    console.log("Вы ребёнок.")
 }
 let task4 = "Задание четвёртое";
 console.log(task4);
 
-let number = prompt("Введите число:");
+let number = parseprompt("Введите число:");
 let noEvOrEv = (number % 2 == 0) ? "Четное число." : "Нечётное число."
 console.log(noEvOrEv)
 
 let task5 = "Задание пятое";
 console.log(task5);
 
-let dayOfSeven = prompt("Введите цифру от 1 до 7");
+let dayOfSeven = parseInt(prompt("Введите цифру от 1 до 7"));
 let message;
 switch (dayOfSeven) {
    case "1":
@@ -71,8 +73,8 @@ console.log(message);
 let task6 = "Задание шестое";
 console.log(task6);
 
-let num1 = prompt("Введите первое число:")
-let num2 = prompt("Введите второе число:")
+let num1 = parseInt(prompt("Введите первое число:"));
+let num2 = parseInt(prompt("Введите второе число:"));
 
 if (num1 == num2) {
     console.log("Числа равны.");
@@ -84,7 +86,7 @@ console.log(numbers);
 let additionallytask = "Дополнительное задание";
 console.log(additionallytask);
 
-let dayOfTwelve = prompt("Введите цифру от 1 до 7");
+let dayOfTwelve = paeseInt(prompt("Введите цифру от 1 до 7"));
 let messages;
 switch (dayOfTwelve) {
    case "1":
