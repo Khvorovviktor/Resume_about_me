@@ -86,7 +86,7 @@ console.log(numbers);
 let additionallytask = "Дополнительное задание";
 console.log(additionallytask);
 
-let dayOfTwelve = prompt("Введите цифру от 1 до 7");
+let dayOfTwelve = prompt("Введите цифру от 1 до 12");
 let messages;
 switch (dayOfTwelve) {
    case "1":
