@@ -34,14 +34,14 @@ if (age >=13 && age <= 18) {
 let task4 = "Задание четвёртое";
 console.log(task4);
 
-let number = parseprompt("Введите число:");
+let number = parseInt(prompt("Введите число:"));
 let noEvOrEv = (number % 2 == 0) ? "Четное число." : "Нечётное число."
 console.log(noEvOrEv)
 
 let task5 = "Задание пятое";
 console.log(task5);
 
-let dayOfSeven = parseInt(prompt("Введите цифру от 1 до 7"));
+let dayOfSeven = prompt("Введите цифру от 1 до 7");
 let message;
 switch (dayOfSeven) {
    case "1":
@@ -86,7 +86,7 @@ console.log(numbers);
 let additionallytask = "Дополнительное задание";
 console.log(additionallytask);
 
-let dayOfTwelve = paeseInt(prompt("Введите цифру от 1 до 7"));
+let dayOfTwelve = prompt("Введите цифру от 1 до 7");
 let messages;
 switch (dayOfTwelve) {
    case "1":
