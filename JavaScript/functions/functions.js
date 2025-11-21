@@ -35,17 +35,16 @@ console.log(sum(num1, num2));
 
 let task4 = "Четвёртое задание";
 console.log(task4);
-
-function isEven(nums) {
-    nums = parseInt(prompt("Введите число:"));
-    if (nums % 2 == 0) {
-        console.log("true");
-    } else {
-        console.log("false");
-    }
+function isEven(nu) {
+    // if (nu % 2 == 0) {
+    //     console.log("true");
+    // } else {
+    //     console.log("false");
+    // }
+    return(nu % 2 == 0);
 };
 
-isEven()
+console.log(isEven(5));
 
 const task5 = "Пятое задание";
 console.log(task5);
@@ -79,7 +78,7 @@ console.log(getInitials(name1, name2));
 const task7 = "Седьмое задание";
 console.log(task7);
 
-numInSquare = prompt("Введите число:");
+numInSquare = parseInt(prompt("Введите число:"));
 numInCube = prompt("Введите число:");
 
 function square(numm) {
