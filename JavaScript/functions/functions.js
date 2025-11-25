@@ -79,7 +79,7 @@ const task7 = "Седьмое задание";
 console.log(task7);
 
 numInSquare = parseInt(prompt("Введите число:"));
-numInCube = parseIntprompt("Введите число:");
+numInCube = parseInt(prompt("Введите число:"));
 
 function square(numm) {
     return(numm**2);
