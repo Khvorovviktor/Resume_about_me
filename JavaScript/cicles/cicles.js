@@ -80,7 +80,7 @@ let inputs;
 
 while (inputs !== 10) {
    inputs = parseInt(prompt("Введите 10 для завершения"));
-   console.log("Вы ввели: " + input);
+   console.log("Вы ввели: " + inputs);
    if (inputs === 10) {
     break
    }
