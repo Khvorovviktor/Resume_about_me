@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+}
+
+#myDiv {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
