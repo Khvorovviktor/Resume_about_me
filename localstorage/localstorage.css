@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+}
