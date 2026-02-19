@@ -18,28 +18,45 @@ setTimeout(() => {
 }, 5000);
 // 4
 
-const fetchData = new Promise((resolve) => {
-  var success = true;
-  if (success) {
-    resolve("Данные получены!");
-  }
-});
-setTimeout(() => {
-  fetchData.then((result) => console.log(result));
-}, 3000);
+// const fetchData = new Promise((resolve) => {
+//   var success = true;
+//   if (success) {
+//     resolve("Данные получены!");
+//   }
+// });
+// setTimeout(() => {
+//   fetchData.then((result) => console.log(result));
+// }, 3000);
+
+async function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("Данные получены.");
+    }, 3000);
+  });
+}
+fetchData().then((result) => console.log(result));
+
 //5
 
-const fetchDataWithError = new Promise((resolve, reject) => {
-  var success = false;
-  if (success) {
-    resolve("Данные получены!");
-  } else {
+// const fetchDataWithError = new Promise((resolve, reject) => {
+//   var success = false;
+//   if (success) {
+//     resolve("Данные получены!");
+//   } else {
+//     reject("Ошибка загрузки!");
+//   }
+// });
+// setTimeout(() => {
+//   fetchDataWithError.catch((result) => console.log(result));
+// }, 2000);
+
+async function fetchDataWithError() {
+  return new Promise((resolve, reject) => {
     reject("Ошибка загрузки!");
-  }
-});
-setTimeout(() => {
-  fetchDataWithError.catch((result) => console.log(result));
-}, 2000);
+  }, 2000);
+}
+fetchDataWithError().catch((result) => console.log(result))
 //6
 async function fetchDataAsync() {
   try {
@@ -79,7 +96,7 @@ async function task2() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve("Задача 2 завершена.");
-    }, 1000);
+    }, 2000);
   });
 }
 async function runTasks() {
@@ -97,7 +114,7 @@ async function taskA() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("Задача A завершена.");
-    }, 1000);
+    }, 3000);
   });
 }
 
@@ -105,7 +122,7 @@ async function taskB() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("Задача B завершена.");
-    }, 1000);
+    }, 4000);
   });
 }
 async function runTasks2() {
