@@ -1,0 +1,14 @@
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 25px;
+}
+
+table {
+    border: 1px solid black;
+}
